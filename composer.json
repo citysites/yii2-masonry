@@ -1,0 +1,27 @@
+{
+    "name": "citysites/yii2-masonry",
+    "description": "Yii2 asset for https://masonry.desandro.com",
+    "keywords": ["yii2","asset","masonry"],
+    "license": "BSD-3-Clause",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "npm-asset/masonry-layout": "*"
+    },
+    "authors": [
+        {
+            "name": "nikosid",
+            "email": "nikosid@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "citysites\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
