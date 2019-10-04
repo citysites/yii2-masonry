@@ -17,6 +17,6 @@ or add ```"citysites/yii2-masonry": "*"``` to the require section of your ```com
 ## Usage
 
 ```php
-use \citysites\web\MasonryAsset;
+use \citysites\assets\MasonryAsset;
 MasonryAsset::register($this);// $this represents the view object
 ```
